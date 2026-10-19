@@ -29,4 +29,3 @@ Using if/else conditions:
     100 iterations = 0.02473336200000631 s
     1000 iterations = 0.3136802170001829 s
 
-IDEAS: Develop a class boundary condition, class solver, and a class solution and class postProcess to integrate concepts and facilitate simulations. And develop a simple interface to use this things and see results.

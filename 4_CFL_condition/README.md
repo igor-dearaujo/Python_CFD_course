@@ -14,3 +14,5 @@ Wen CFL gets grater then 1 we have huge instabilities. These instabilities appea
 COURANT NUMBER = u * dt/dx <= MAX COURANT NUMBER (THIS IS THE NUMBER THAT ASSURES STABILITY WILL RELY ONLY IN DISCRETIZATION SHCEMES)
 
 We can use a method to calculate the dt based on the dx, to assure stability. For example we impose the courant number = 0.9 and calculate the dt. To assure that, the smaller our mesh is (more nx, less dx), the smaller dt must be.
+
+IDEAS: Develop a class boundary condition, class solver, and a class solution and class postProcess to integrate concepts and facilitate simulations. And develop a simple interface to use this things and see results.
