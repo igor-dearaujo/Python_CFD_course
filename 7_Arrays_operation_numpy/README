@@ -1,0 +1,9 @@
+ARRAYS OPERATIONS USING NUMPY
+
+Always substitute loops to arrays operations if its possible. Way more efficient
+
+function %%timeit important to analyse code performance
+
+substitute loops in (i,j) to define elements to arrays working with full lines
+
+use of functions to better define our code!
