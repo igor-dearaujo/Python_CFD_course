@@ -16,3 +16,14 @@ $$\frac{\partial ^2 u}{\partial x^2}=\frac{u_{i+1}-2u_{i}+u_{i-1}}{\Delta x^2} +
 After that we can rewrite the 1D Diffusion equation in its discrete form (using forward difference shceme for the time):
 Once we have a initial condition, the only unkwown is the term $$u_{i} ^{n+1}$$
 
+After that to solve the problem numerically we follow the same steps:
+
+- Definition of geometrical Domain
+- Definition of discretized domain (array of nx items) > dx elements
+- Definition of discretized time steps
+- Initialize velocity vector with initial conditions
+- Iterations loop in time array
+    - save a copy of the previous solution
+    - Iterations loop in space array
+        - Calculate new u vector based on previous vector and space discretization
+
