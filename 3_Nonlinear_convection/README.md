@@ -18,14 +18,9 @@ Basically we introduce a function that returns (1, 0) and (0, 1) depending on th
 
 It is also possible to analyse using if/else condition (evaluate difference in time consuming using python capabilities)
 
-Using Numpy arrays manipulation: 
-    20 iterations = 0.022471766999842657 s
-    100 iterations = 0.07523711599969829 s
-    1000 iteartions = 0.717492226000104 s
+Using Numpy arrays manipulation: 652 ms ± 101 ms per loop
 
 
-Using if/else conditions:
-    20 iterations = 0.011163707999912731 s
-    100 iterations = 0.02473336200000631 s
-    1000 iterations = 0.3136802170001829 s
+Using if/else conditions: 364 ms ± 98.5 ms per loop
+
 
