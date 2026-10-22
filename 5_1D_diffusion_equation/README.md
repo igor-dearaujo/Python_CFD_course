@@ -1,7 +1,7 @@
 NOTES ON STEP : 1D Diffusion equation
 
 Basically there is no convection so the term u * du/dx is zero. In the RHS there is the diffusive term that comes from:
-div(stresses) = nu * div(grad(u))
+$$\nabla \cdot (\sigma) = \nu \nabla \cdot (\nabla (u)) = \nu * \nabla ^2 (u)$$
 
 $$\frac{\partial u}{\partial t}= \nu \frac{\partial^2 u}{\partial x^2}$$
 
